@@ -3,6 +3,10 @@ rgs = {
     rg       = "rg-landingzone-dev"
     location = "southindia"
   }
+    prod = {
+    rg       = "rg-landingzone-prod"
+    location = "southindia"
+  }
 }
 
 vnets = {
