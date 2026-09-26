@@ -16,6 +16,12 @@ vnets = {
     location      = "southindia"
     rg            = "rg-landingzone-dev"
   }
+   landingzone-vnet-prod = {
+    vnet          = "vnet-landingzone-prod"
+    address_space = ["11.0.0.0/16"]
+    location      = "southindia"
+    rg            = "rg-landingzone-prod"
+  }
 }
 
 subnets = {
